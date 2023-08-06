@@ -2,6 +2,7 @@ home http://revodix.co.kr/
 all that lab  http://revodix.co.kr/lab/
 all that pump  http://revodix.co.kr/pump/
 catalog   http://revodix.co.kr/lab/contactus/catalog_request
+email mailto:sales@revodix.co.kr
 
 blog   https://blog.naver.com/revodix
 post   https://post.naver.com/my.nhn?memberNo=35004702

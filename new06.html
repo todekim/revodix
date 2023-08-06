@@ -7,9 +7,9 @@
 </head>
 <body>
 <center>
-  <table width="800" border="0" cellpadding="0" cellspacing="0" style="width:100%; max-width:800px;margin:0 auto;">
+  <table width="800" border="0" cellpadding="0" cellspacing="0" style="width:100%;height:auto; max-width:800px;margin:0 auto;">
     <tr>
-      <td><img src="http://narangdesign.com/mail/revodix/202308/images/06/top_01.jpg" alt="revodix" width="800" usemap="#Map1" style="width:100%;max-width:800px;display:block" border="0"/>
+      <td><img src="http://narangdesign.com/mail/revodix/202308/images/06/top_01.jpg" alt="revodix" width="800" height="1143" usemap="#Map1" style="width:100%;max-width:800px;display:block" border="0"/>
         <map name="Map1">
           <area shape="rect" coords="454,394,525,458" href="https://revodixpump.tistory.com/" target="_blank" alt="tistory">
           <area shape="rect" coords="363,393,434,457" href="https://pf.kakao.com/_xhquHl" target="_blank" alt="kakaoCH">
@@ -54,20 +54,19 @@
       <td><img src="http://narangdesign.com/mail/revodix/202308/images/06/con_03.jpg" alt="" width="800" style="width:100%;max-width:800px;display:block" border="0"/></td>
     </tr>
     <tr>
-      <td style="padding:2em"><div style="color:#333;font-size:16px;line-height:1.7em;font-family:나눔고딕, 맑은고딕;">
-        <strong style="font-size:20px;color:#358533">주의 및 유의사항</strong> <br>
-        <br>
-        <ul style="margin-left:-1em;">
-          <li>중복 응모 및 부정한 방법으로 이벤트에 참여한 것이 발견될 경우 당첨이 취소될 수 있습니다.</li>
-          <li>개인정보 이용에 동의하지 않은 참여자는 당첨자 선정에서 제외됩니다.<br>
-            ([마이랩플러스]-[회원정보수정] 하단의 [정보수신여부] 체크)</li>
-          <li>당첨된 경품은 회원정보에 기재된 정보로 발송되며, 잘못된 개인정보로 인한 미배송이나 오배송은  
-            재발송이 불가합니다.</li>
-          <li>본 이벤트 내용은 당사의 사정에 의해 변경 또는 조기 종료될 수 있습니다.</li>
-          <li>당첨자 발표는 [고객센터]-[공지사항]에서 확인 가능합니다.</li>
-		  </ul></div>
-        <br>
-        </td>
+      <td style="padding:2em"><div style="color:#333;font-size:16px;line-height:1.7em;font-family:나눔고딕, 맑은고딕;"> <strong style="font-size:20px;color:#358533">주의 및 유의사항</strong> <br>
+          <br>
+          <ul style="margin:0 0 0 1em;padding:10px">
+            <li>중복 응모 및 부정한 방법으로 이벤트에 참여한 것이 발견될 경우 당첨이 취소될 수 있습니다.</li>
+            <li>개인정보 이용에 동의하지 않은 참여자는 당첨자 선정에서 제외됩니다.<br>
+              ([마이랩플러스]-[회원정보수정] 하단의 [정보수신여부] 체크)</li>
+            <li>당첨된 경품은 회원정보에 기재된 정보로 발송되며, 잘못된 개인정보로 인한 미배송이나 오배송은  
+              재발송이 불가합니다.</li>
+            <li>본 이벤트 내용은 당사의 사정에 의해 변경 또는 조기 종료될 수 있습니다.</li>
+            <li>당첨자 발표는 [고객센터]-[공지사항]에서 확인 가능합니다.</li>
+          </ul>
+        </div>
+        <br></td>
     </tr>
     <tr>
       <td><div style="color:#333;font-size:16px;line-height:1.7em;font-family:나눔고딕, 맑은고딕;padding:2em;border:3px solid #ededed;text-align:center;"> <strong>본 메일은 레보딕스에서 제공하는 뉴스레터입니다. <br>
@@ -84,5 +83,13 @@
     </tr>
   </table>
 </center>
+<!-- only for web responsive --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script> 
+<script>
+	$(document).ready(function() {
+	$('img[usemap]').rwdImageMaps();
+});
+	</script>
 </body>
 </html>
